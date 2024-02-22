@@ -6,6 +6,7 @@ Contains 2 files compare-object.ts and CompareObject.cs for compare object chang
  * @param ignoreKeys: Array of ignore keys
  * @returns:  {"name": {"current":"Cuong", "expect":"Viet"}, "age": {"current":26, "expect": null}}
 # Usage of CompareObject.cs in C#
+``` C#
  [Test]
         public void Test_CompareObjects_ReturnOneDifferent()
         {
@@ -39,3 +40,4 @@ Contains 2 files compare-object.ts and CompareObject.cs for compare object chang
             Assert.AreEqual(differences["Name"].Expect, "John2");
 
         }
+```
