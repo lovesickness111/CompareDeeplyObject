@@ -1,5 +1,5 @@
 # CompareDeeplyObject
-Contains 2 files compare-object.ts and CompareObject.cs for compare object changes
+Contains 2 files compare-object.ts and CompareObject.cs for compare object changes in JavaScript and C#
 # Usage of compare-object.ts in TypeScript/ JavaScript
 ``` javascript
 /**
